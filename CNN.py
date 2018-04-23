@@ -86,3 +86,5 @@ for i in range(1000):
     if i % 50 == 0:
         print(compute_accuracy(
             mnist.test.images[:1000], mnist.test.labels[:1000]))
+
+            
